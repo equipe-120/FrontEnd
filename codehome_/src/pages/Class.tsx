@@ -2,6 +2,8 @@ import Header from "../Components/Header";
 import ListVideo from "../Components/ListVideo";
 import InfoSubHeader from '../Components/InfoSubHeader'
 
+import ReactPlayer from 'react-player';
+
 
 const Class = () => {
     return (
@@ -12,10 +14,24 @@ const Class = () => {
             </div>
             <div className="flex mx-44 space-x-20">
                 <div className="w-2/3">
-                    Video
+                    <ReactPlayer url="https://www.youtube.com/watch?v=g4ducuSNfc0" />
                 </div>
                 <div className="w-1/3">
-                    <ListVideo nameVideo="NameVideo"/>
+                    <ListVideo nameVideo="NameVideo" status={true}/>
+                    <ListVideo nameVideo="NameVideo" status={true}/>
+                    <ListVideo nameVideo="NameVideo" status={true}/>
+                    <ListVideo nameVideo="NameVideo" status={true}/>
+                    <ListVideo nameVideo="NameVideo" status={true}/>
+                    <ListVideo nameVideo="NameVideo" status={true}/>
+                    <ListVideo nameVideo="NameVideo" status={true}/>
+                    <ListVideo nameVideo="NameVideo" status={true}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
                 </div>
             </div>
         </div>
