@@ -19,7 +19,9 @@ const Login = () => {
                         </Link>
                     </div>
                     <div className="flex justify-center">
-                        <button className="bg-white text-blue-600 h-12 w-64 rounded-lg">Cadastro como parceiro</button>
+                        <Link to="cadastroTercerios">
+                            <button className="bg-white text-blue-600 h-12 w-64 rounded-lg">Cadastro como parceiro</button>
+                        </Link>
                     </div>
                 </div>
             </div>

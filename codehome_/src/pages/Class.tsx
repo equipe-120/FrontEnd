@@ -17,20 +17,7 @@ const Class = () => {
                     <ReactPlayer url="https://www.youtube.com/watch?v=g4ducuSNfc0" />
                 </div>
                 <div className="w-1/3">
-                    <ListVideo nameVideo="NameVideo" status={true}/>
-                    <ListVideo nameVideo="NameVideo" status={true}/>
-                    <ListVideo nameVideo="NameVideo" status={true}/>
-                    <ListVideo nameVideo="NameVideo" status={true}/>
-                    <ListVideo nameVideo="NameVideo" status={true}/>
-                    <ListVideo nameVideo="NameVideo" status={true}/>
-                    <ListVideo nameVideo="NameVideo" status={true}/>
-                    <ListVideo nameVideo="NameVideo" status={true}/>
-                    <ListVideo nameVideo="NameVideo" status={false}/>
-                    <ListVideo nameVideo="NameVideo" status={false}/>
-                    <ListVideo nameVideo="NameVideo" status={false}/>
-                    <ListVideo nameVideo="NameVideo" status={false}/>
-                    <ListVideo nameVideo="NameVideo" status={false}/>
-                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={true} />
                     <ListVideo nameVideo="NameVideo" status={false}/>
                 </div>
             </div>
