@@ -40,7 +40,7 @@ const Ranking = () =>{
                     
 
                 </div>
-                <div className="space-y-2">
+                <div >
                     <PerfilRanking areaAtuacao="front-end" experience="202,021" imgPerfil={imgPerfilRanking} name="Matehus" number={1} />
                     <PerfilRanking areaAtuacao="back-end" experience="190,021" imgPerfil={imgPerfilRanking} name="Jose" number={5} />
                     <PerfilRanking areaAtuacao="Ciencia de dados" experience="180,021" imgPerfil={imgPerfilRanking} name="Alias" number={13} />

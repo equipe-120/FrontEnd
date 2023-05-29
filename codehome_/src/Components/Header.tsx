@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className="flex bg-blue-600 text-white">
         <div className="my-4 mx-4">
-        <Link to="/">
+        <Link to="/choseClass">
             <img
                 className="h-22 w-22"
                 src={logo} alt="logo" 
@@ -24,28 +24,36 @@ const Header = () => {
             </div>
           </div>
           <div className="my-auto flex space-x-1">
-            <img
-              className="h-4 w-4 mt-1" 
-              src={HomeImg} alt="" />
-              Home
-          </div>
-          <div className="my-auto flex space-x-1">
-          <img
-              className="h-4 w-4 mt-1" 
-              src={ProjectImg} alt="" />
-              Project
-          </div>
+          <Link to="/">
+            <div className="my-auto flex space-x-1">
+              <img
+                className="h-4 w-4 mt-1" 
+                src={HomeImg} alt="" />
+                Home
+              </div>
+          </Link>
+            </div>
+            <div className="my-auto flex space-x-1">
+          <Link to="/projetos">
+            <div className="my-auto flex space-x-1">
+              <img
+                className="h-4 w-4 mt-1" 
+                src={ProjectImg} alt="" />
+                Project
+              </div>
+          </Link>
+            </div>
         </div>
-          <div className="my-auto flex space-x-1">
-            <div>
-                <img
-                    className="h-4 w-4 mt-1" 
-                    src={imgRanting} alt="imgRanting" />
+        <div className="my-auto flex space-x-1">
+          <Link to="/ranking">
+            <div className="my-auto flex space-x-1">
+              <img
+                className="h-4 w-4 mt-1" 
+                src={imgRanting} alt="" />
+                Project
+              </div>
+          </Link>
             </div>
-            <div className="text-base">
-              Ranking
-            </div>
-          </div>
         </div>
     </div>
     );
