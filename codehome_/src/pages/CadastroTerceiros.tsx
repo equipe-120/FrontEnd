@@ -1,7 +1,8 @@
+import imgRightBlue from '../Assets/CadastroTerceiros/BackgroundRight.svg'
 
 const CadastroTercerios = () => {
     return (
-        <div className=" flex h-full w-full">
+        <div className=" flex h-screen w-screen">
             <div className="w-1/2 h-screen bg-slate-700">
                 <div className="mt-20">
                     <div className="mx-16" >
@@ -104,8 +105,9 @@ const CadastroTercerios = () => {
             </div>
 
 
-            <div>
-                right
+            <div className='w-1/2'>
+                <img className="w-full"
+                    src={imgRightBlue} alt="" />
             </div>
         </div>
     );
