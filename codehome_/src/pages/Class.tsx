@@ -9,15 +9,28 @@ const Class = () => {
     return (
         <div className="h-screen w-screen bg-gray-800">
             <Header/>
-            <div className=" my-16 mx-44">
+            <div className=" my-16 mx-44 text-gray-50">
                 <InfoSubHeader description="Diferença entre front e back" title="Front-end"/>
             </div>
             <div className="flex mx-44 space-x-20">
                 <div className="w-2/3">
                     <ReactPlayer url="https://www.youtube.com/watch?v=g4ducuSNfc0" />
                 </div>
-                <div className="w-1/3">
+                <div className="w-1/3 text-gray-100 font-light" >
                     <ListVideo nameVideo="NameVideo" status={true} />
+                    <ListVideo nameVideo="NameVideo" status={true} />
+                    <ListVideo nameVideo="NameVideo" status={true} />
+                    <ListVideo nameVideo="NameVideo" status={true} />
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
+                    <ListVideo nameVideo="NameVideo" status={false}/>
                     <ListVideo nameVideo="NameVideo" status={false}/>
                 </div>
             </div>

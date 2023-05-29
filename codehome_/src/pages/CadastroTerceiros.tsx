@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import imgRightBlue from '../Assets/CadastroTerceiros/BackgroundRight.svg'
 
 const CadastroTercerios = () => {
@@ -95,11 +96,14 @@ const CadastroTercerios = () => {
                                 </div>
                             </div>
                         </div>
+                        <Link to="/">
                         <div className="flex justify-center my-10">
+                            
                             <button className=" bg-blue-600 w-full text-center h-12 text-gray-50">
                                 Cadastrar empresa
                             </button>
                         </div>
+                        </Link>
                     </div>
                 </div>
             </div>
